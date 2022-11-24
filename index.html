@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">   
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <title>Proyect 1</title> 
+    </head>
+    <body>
+        <h1 class="title">Agent Registration</h1>
+        <table>
+        <tr>
+            <th> <img src="img/Check.svg.png"> <h1 class="textable">Personal Details</h1></th>
+            <th class="select"> <img src="img/Check.svg.png"> <h1 class="textable">Agency Details</h1></th>
+            <th> <img src="img/circle.svg"> <h1 class="textable">contact Person Details</h1></th>
+            <th> <img src="img/circle.svg"> <h1 class="textable">Work Order Scope</h1></th>
+        </tr>
+        </table>
+
+        <h1 class="subtitle">Profile Information</h1>
+
+        <div>
+            <div class="tercio">
+                <div class="datename"> <h1 class="dato">Angency Name</h1> <h1 class="asterisk">*</h1> </div> 
+                <input type="text" class="impts">
+                <div class="datename"> <h1 class="dato">Address</h1> <h1 class="asterisk">*</h1> </div> 
+                <input type="text" class="impts">
+                <div class="datename"> <h1 class="dato">Toll-Free Number</h1> <h1 class="asterisk">*</h1> </div> 
+                <input type="text" class="impts">
+                <div class="datename"> <h1 class="dato">Company Name</h1> <h1 class="asterisk">*</h1> </div>
+                <div class="calendar"></div>
+            </div>
+
+
+            <div class="tercio">
+                <div class="datename"> <h1 class="dato">Angency Type</h1> <h1 class="asterisk">*</h1> </div> 
+                <input type="text" class="imptsdrop">
+                
+                <div class="spe"> 
+                    <div class="mitad">
+                        <div class="datename"> <h1 class="dato">City</h1> <h1 class="asterisk">*</h1> </div> 
+                        <input type="text" class="imptss">
+                    </div>
+                    <div class="mitad" id="state">
+                        <div class="datename"> <h1 class="dato">State</h1> <h1 class="asterisk">*</h1> </div> 
+                        <input type="text" class="imptss">
+                    </div>
+                </div>
+
+                <div class="datename"> <h1 class="dato">Email ID</h1> <h1 class="asterisk">*</h1> </div> 
+                <input type="text" class="impts">
+
+                <div class="datename"> <h1 class="dato">Office Space</h1> <h1 class="asterisk">*</h1> </div> 
+                
+                <div class="greys">
+                    <div class="mitadchecks" id="rental">
+                        <input type="radio" name="styles" id="accent">
+                        <label for="accent" id="office">Owned</label>
+                    </div>
+                    <div class="mitadchecks">
+                        <input type="radio" name="styles" id="accent">
+                        <label for="accent" id="office">Rental</label>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="tercio">
+                <div class="datename"> <h1 class="dato">Password</h1> <h1 class="asterisk">*</h1> </div> 
+                <input type="text" class="imptsdrop">
+                <div class="datename"> <h1 class="dato">Telephone Number</h1> <h1 class="asterisk">*</h1> </div> 
+                <input type="text" class="impts">
+                <div class="datename"> <h1 class="dato">Website</h1> <h1 class="asterisk">*</h1> </div> 
+                <input type="text" class="impts">
+                <div class="datename"> <h1 class="dato">Company Logo</h1> <h1 class="asterisk">*</h1> </div> 
+                <div class="greys"> <button class="choose" id="boton"></button> <p class="choose" id="noboton">No choose file</p></div>       
+            </div>
+        </div>
+        <h1 class="foot">In order to process your registration, we ask you to provide the following information. Please note that all fields marked with an asterisk (*) are required.</h1>
+
+        <div class="botones">
+            <button id="cancel">CANCEL</button>
+            <button id="con">CONTINUE <img src="img/flecha.png" id="flecha"></button>
+        </div>
+    </body>
+</html>
